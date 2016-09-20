@@ -2,9 +2,10 @@
 // Rowboat is child of Boat
 public class DebugEleven1
 {
+
    public static void main(String[] args)
    {
-      DebugRowboat myBoat = new Rowboat();
+      DebugRowboat myBoat = new DebugRowboat();
       System.out.println(myBoat.toString());
    }
 }
